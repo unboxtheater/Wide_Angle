@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+.description {
+    /* align-items: center; */
+    /* text-align: center; */
+    margin: auto;
+    max-width: 500px;
+}
+
+.youtube-container {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.youtube-frame {
+    width: 400px;
+    height: 400px;
+}
+
+.marathi-text {
+    font-family: 'Noto Sans Devanagari';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.english-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.heading {
+    font-family: "Hubballi";
+}
+
+.bg {
+    /* background-color: #A0A0A0; */
+    padding-top: 32px;
+    padding-bottom: 32px;
+    /* padding: 0px; */
+    margin: 0px;
+}
