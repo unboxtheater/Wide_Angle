@@ -1,3 +1,11 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: black;
     margin: auto;
@@ -20,6 +28,23 @@ body {
     height: 400px;
 }
 
+.show-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    background-color: #d9d9d9;
+    color: #393939;
+    font-family: "Serif";
+    font-size: 18px;
+    font-weight: 300;
+    /* border-style: double; */
+    text-align: center;
+    /*line-height: 140%;*/
+    padding-bottom: 25px;
+}
+
 .marathi-text {
     font-family: "Martel";
     background-color: #393939;
@@ -27,7 +52,8 @@ body {
     font-size: 17px;
     font-weight: 300;
     /* border-style: double; */
-    padding: 5px;
+    padding-inline: 5px;
+    padding-block: 12px;
     text-align: center;
     /* margin-top: 10px; */
 }
@@ -39,9 +65,10 @@ body {
     font-size: 18px;
     font-weight: 300;
     /* border-style: double; */
-    padding: 5px;
     text-align: center;
     line-height: 140%;
+    padding-inline: 5px;
+    padding-block: 12px;
 }
 
 .english-text p {
