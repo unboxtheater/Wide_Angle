@@ -2,14 +2,12 @@ body {
     background-color: black;
     margin: auto;
     max-width: 500px;
-
 }
 
 .description {
     /* align-items: center; */
     /* text-align: center; */
     margin: auto;
-
 }
 
 .youtube-container {
@@ -23,9 +21,9 @@ body {
 }
 
 .marathi-text {
-    font-family: 'Martel';
+    font-family: "Martel";
     background-color: #393939;
-    color: #FFFCEF;
+    color: #fffcef;
     font-size: 17px;
     font-weight: 300;
     /* border-style: double; */
@@ -37,7 +35,7 @@ body {
 .english-text {
     background-color: #d9d9d9;
     color: #393939;
-    font-family: 'Serif';
+    font-family: "Serif";
     font-size: 18px;
     font-weight: 300;
     /* border-style: double; */
@@ -49,7 +47,6 @@ body {
 .english-text p {
     padding-left: 18px;
     padding-right: 18px;
-
 }
 
 .marathi-text p {
@@ -58,8 +55,8 @@ body {
 }
 
 .contact {
-    color: #FFFCEF;
-    font-family: 'Serif';
+    color: #fffcef;
+    font-family: "Serif";
     font-size: 17px;
     font-weight: 300;
 }
@@ -70,12 +67,12 @@ body {
 }
 
 .heading {
-    font-family: "Hubballi";
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .bg {
     background-color: #393939;
-    color: #FFFCEF;
+    color: #fffcef;
     /* padding-top: 32px; */
     padding-bottom: 32px;
     /* padding: 0px; */
